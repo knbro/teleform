@@ -22,7 +22,7 @@ document
       today.getSeconds();
 
     var nameInput = document.getElementById("name").value;
-    var mail = document.getElementById("mail").value;
+    var mail = document.getElementById("name1").value;
     var input_message = document.getElementById("message").value;
     var message = input_message.replace(/(\r\n|\n|\r|\n|\t)/gm, " "); 
 
@@ -33,10 +33,10 @@ document
       swal("Name !", "Invalid name", "error");
      
     } else if (mail === "") {
-      swal("Mail !", "Invalid mail", "error");
+      swal("Mail !", "Invalid ", "error");
      
     } else if (mail.length < 2) {
-      swal("Mail !", "Invalid mail", "error");
+      swal("Mail !", "Invalid", "error");
      
     } else if (message === "") {
       swal("Message !", "Invalid message", "error");
